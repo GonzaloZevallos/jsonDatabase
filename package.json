@@ -1,0 +1,12 @@
+{
+  "name": "ormon",
+  "version": "1.0.0",
+  "description": "Artisan ORM for JSONs databases.",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "keywords": [],
+  "author": "gonzalozevallos",
+  "license": "ISC"
+}
