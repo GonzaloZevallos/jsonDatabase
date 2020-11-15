@@ -2,9 +2,9 @@
   "name": "ormon",
   "version": "1.0.0",
   "description": "Artisan ORM for JSONs databases.",
-  "main": "App.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node App.js"
+    "ormon": "node app.js"
   },
   "keywords": [],
   "author": "gonzalozevallos",
