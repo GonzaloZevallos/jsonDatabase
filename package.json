@@ -4,13 +4,14 @@
   "description": "Artisan ORM for JSONs databases.",
   "main": "app.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/GonzaloZevallos/ormon.git"
+    "type": "git",
+    "url": "https://github.com/GonzaloZevallos/ormon.git"
   },
   "scripts": {
     "ormon": "node app.js"
   },
   "keywords": [],
   "author": "gonzalozevallos",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
