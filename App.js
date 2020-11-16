@@ -19,18 +19,21 @@ module.exports = function App (action, dest) {
           mode: true,
           cover: true,
         }
-      );
-  
-      console.log(`
+      ), (err) => {
+        
+        if(err) throw err;
+        
+        console.log(`
       
-      Structure created successfully:
-  
-      database
-          |__ Class
-          |__ data
-          |__ Models
-      
-      `);
+        Structure created successfully:
+    
+        database
+            |__ Class
+            |__ data
+            |__ Models
+        
+        `);
+      };
       break;
   
     default:
