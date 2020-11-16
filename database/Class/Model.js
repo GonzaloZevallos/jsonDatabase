@@ -38,6 +38,7 @@ module.exports =  class Model {
   }
 
   findOne(callback) {
+    const allData = this.readParsed();
     return allData.find(callback);
   }
 
