@@ -25,9 +25,8 @@ module.exports = function App (argv) {
       Structure created successfully:
   
       database
-          |__ Class
-          |__ data
-          |__ Models
+          |__ tables
+          |__ models
       
       `);
 
