@@ -1,23 +1,22 @@
 {
   "name": "ormon",
   "version": "1.0.0",
-  "description": "Artisan ORM for JSONs databases.",
-  "main": "app.js",
+  "description": "Artisan ORM for JSON databases.",
+  "main": "index.js",
   "bin": {
     "ormon": "cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GonzaloZevallos/ormon.git"
+    "url": "https://github.com/GonzaloZevallos/ormon-cli.git"
   },
   "scripts": {
     "ormon": "node app.js init"
   },
   "keywords": [],
-  "author": "gonzalozevallos",
+  "author": "Gonzalo Zevallos",
   "license": "ISC",
   "dependencies": {
-    "copy-dir": "^1.3.0",
-    "fs-extra": "^9.0.1"
+    "copy-dir": "^1.3.0"
   }
 }

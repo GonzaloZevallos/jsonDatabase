@@ -2,11 +2,11 @@ const path = require('path');
 const copyDir = require('copy-dir');
 const fs = require('fs');
 
-module.exports = function App (action, dest) {
-  switch (action) {
+module.exports = function App (argv) {
+  switch (argv[2]) {
     case 'init':   
       const src = path.resolve(__dirname, "./database");
-      const destination = path.resolve(dest ? path.resolve(__dirname, dest) : process.cwd(), './database');
+      const destination = path.resolve(argv[3] ? path.resolve(__dirname, argv[3]) : process.cwd(), './database');
   
       fs.mkdirSync(destination);
   
@@ -18,22 +18,24 @@ module.exports = function App (action, dest) {
           mode: true,
           cover: true,
         }
-      ), (err) => {
-        
-        if(err) throw err;
-        
-        console.log(`
-      
-        Structure created successfully:
+      );
+
+      console.log(`
     
-        database
-            |__ Class
-            |__ data
-            |__ Models
-        
-        `);
-      };
+      Structure created successfully:
+  
+      database
+          |__ Class
+          |__ data
+          |__ Models
+      
+      `);
+
       break;
+    
+    case 'generate':
+        
+        console.log('Generate model');
   
     default:
       console.log('Command not recognized.')
