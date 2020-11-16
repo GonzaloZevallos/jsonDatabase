@@ -3,7 +3,7 @@ const copyDir = require('copy-dir');
 const fs = require('fs');
 
 module.exports = function App (action, dest) {  
-  
+  console.log(process.argv)
   switch (action) {
     case 'init':   
       const src = path.resolve(__dirname, "./database");
