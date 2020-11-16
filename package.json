@@ -4,7 +4,7 @@
   "description": "Artisan ORM for JSON databases.",
   "main": "index.js",
   "bin": {
-    "ormon": "cli.js"
+    "ormson": "cli.js"
   },
   "repository": {
     "type": "git",
