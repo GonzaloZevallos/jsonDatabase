@@ -1,2 +1,2 @@
 # Ormon
-Artisan ORM for JSONs databases.
+Artisan ORM for JSON databases.
