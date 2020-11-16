@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 // ./cli.js
-let command = require('./command')
-command()
+let app = require('./app.js')
+app()
