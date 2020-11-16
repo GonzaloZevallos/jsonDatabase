@@ -1,7 +1,7 @@
-># Ormon-cli
->Client for Ormon.
+># Ormson-cli
+>Client for Ormson.
 
 
 ### Installation
-1. `npm install gonzalozevallos/ormon-cli -g`
-2. Execute `ormon init` where you want to create the folder structure.
+1. `npm install ormson-cli -g`
+2. Execute `ormson init` where you want to create the folder structure.
