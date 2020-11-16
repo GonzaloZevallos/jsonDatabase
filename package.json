@@ -1,5 +1,5 @@
 {
-  "name": "ormson",
+  "name": "ormson-cli",
   "version": "1.0.0",
   "description": "Artisan ORM for JSON databases.",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "scripts": {
     "ormson": "node app.js init"
   },
-  "keywords": [],
+  "keywords": ["json", "orm", "cli"],
   "author": "Gonzalo Zevallos",
   "license": "ISC",
   "dependencies": {
