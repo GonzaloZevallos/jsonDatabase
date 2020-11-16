@@ -8,10 +8,13 @@
     "url": "https://github.com/GonzaloZevallos/ormon.git"
   },
   "scripts": {
-    "ormon": "node app.js"
+    "ormon": "node app.js init"
   },
   "keywords": [],
   "author": "gonzalozevallos",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "copy-dir": "^1.3.0",
+    "fs-extra": "^9.0.1"
+  }
 }
