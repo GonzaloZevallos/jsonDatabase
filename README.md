@@ -1,2 +1,2 @@
-# Ormon
-Artisan ORM for JSON databases.
+# Ormon-cli
+Client for Ormon.
