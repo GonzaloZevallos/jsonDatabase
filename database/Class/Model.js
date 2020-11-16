@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-module.exports =  class Model {
+module.exports = class Model {
   constructor(tablename) {
     this.tablename = tablename;
     this.path = path.resolve(`${__dirname}/../data/${this.tablename}.json`);
@@ -17,7 +17,7 @@ module.exports =  class Model {
   }
 
   readParsed() {
-    if(!this.exist(this.path)){
+    if (!this.exist(this.path)) {
       this.save([]);
     }
     return JSON.parse(fs.readFileSync(this.path, 'utf-8'));
@@ -43,7 +43,7 @@ module.exports =  class Model {
   }
 
   findByPk(id) {
-    return this.readParsed().find((element) => element.id === id);
+    return this.readParsed().find((element) => element.id == id);
   }
 
   create(data) {
@@ -72,8 +72,8 @@ module.exports =  class Model {
 
     let elementModified;
 
-    const allDataModified = allData.map((element) => {
-      if (!element.id === id) {
+    const allDataModified = allData.map((product) => {
+      if (product.id != id) {
         return product;
       }
 
