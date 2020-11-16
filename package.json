@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Artisan ORM for JSONs databases.",
   "main": "app.js",
+  "bin": {
+    "ormon": "cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/GonzaloZevallos/ormon.git"
