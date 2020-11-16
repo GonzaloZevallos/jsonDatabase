@@ -2,13 +2,12 @@ const path = require('path');
 const copyDir = require('copy-dir');
 const fs = require('fs');
 
-module.exports = function App () {
-  const action = process.argv[1];
+module.exports = function App (action, dest) {  
   
   switch (action) {
     case 'init':   
       const src = path.resolve(__dirname, "./database");
-      const destination = path.resolve(process.argv[2] ? path.resolve(__dirname, process.argv[2]) : process.cwd(), './database');
+      const destination = path.resolve(dest ? path.resolve(__dirname, dest) : process.cwd(), './database');
   
       fs.mkdirSync(destination);
   
