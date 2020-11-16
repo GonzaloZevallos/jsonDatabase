@@ -1,5 +1,5 @@
 {
-  "name": "ormon",
+  "name": "ormson",
   "version": "1.0.0",
   "description": "Artisan ORM for JSON databases.",
   "main": "index.js",
@@ -8,15 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GonzaloZevallos/ormon-cli.git"
+    "url": "https://github.com/GonzaloZevallos/ormson-cli.git"
   },
   "scripts": {
-    "ormon": "node app.js init"
+    "ormson": "node app.js init"
   },
   "keywords": [],
   "author": "Gonzalo Zevallos",
   "license": "ISC",
   "dependencies": {
     "copy-dir": "^1.3.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/GonzaloZevallos/ormson-cli/issues"
+  },
+  "homepage": "https://github.com/GonzaloZevallos/ormson-cli#readme"
 }
