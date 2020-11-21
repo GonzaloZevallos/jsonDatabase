@@ -1,6 +1,6 @@
 {
   "name": "ormson-cli",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Artisan ORM for JSON databases.",
   "main": "index.js",
   "bin": {
