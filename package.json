@@ -13,7 +13,11 @@
   "scripts": {
     "ormson": "node app.js init"
   },
-  "keywords": ["json", "orm", "cli"],
+  "keywords": [
+    "json",
+    "orm",
+    "cli"
+  ],
   "author": "Gonzalo Zevallos",
   "license": "ISC",
   "dependencies": {
